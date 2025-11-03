@@ -1,8 +1,9 @@
-runtime: php55
+runtime: php81
+entrypoint: "php -S 0.0.0.0:8080 -t api"
 api_version: 1
 handlers:
-- url: /
-  script: index.php
+- url: /.*
+  script: auto
 # Serve images as static resources.
 - url: /(.+\.(gif|png|jpg))$
   static_files: \1
@@ -11,3 +12,5 @@ handlers:
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
+automatic_scaling:
+  max_instances: 3
