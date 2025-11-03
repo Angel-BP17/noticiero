@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="news-newspaper-media-paper-press-article_108607.ico">
+    <link rel="icon" href="api/news-newspaper-media-paper-press-article_108607.ico">
 
     <title>DIARIO EL HOCICÓN</title>
 
@@ -18,13 +18,13 @@
     <link href="https://getbootstrap.com/docs/4.1/examples/blog/blog.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="bg-success">
 
     <div class="container">
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-12 text-center">
-            <a class="blog-header-logo text-dark" href="#">NOTICIAS SON NOTICIAS 2025</a>
+            <a class="blog-header-logo text-primary" href="#">NOTICIAS SON NOTICIAS 2025</a>
           </div>
         </div>
       </header>
