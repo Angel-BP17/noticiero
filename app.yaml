@@ -1,4 +1,4 @@
-runtime: php55
+runtime: php81
 entrypoint: "php -S 0.0.0.0:8080 -t api"
 api_version: 1
 handlers:
